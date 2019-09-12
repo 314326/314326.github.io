@@ -1,30 +1,50 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-<title>Introduction</title>
-</head>
-<body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<table>
-	<thead>
-		<tr>
-			<th>MSSV</th>
-			<th>Họ tên</th>
-		<tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><a href="./members/1712316/1712316.html">1712316</a></td>
-			<td>Tằng Hưng Dân</td>
-		</tr>
-		<tr>
-			<td><a href="./members/1712324/1712324.html">1712324</a></td>
-			<td>Hồ Sỹ Thái Đạt</td>
-		</tr>
-	</tbody>
-</table>
-
-</body>
+	<head>
+		<title>Introduction</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div id="Header">
+				<h1>Thông tin Group2D</h1>
+		</div>
+		<div id="content">
+			<div id="menu">
+				<ul>
+					<li id="Home"><a href="default.html">Home</a></li>
+					<li id="members-list">Members</li>
+				</ul>
+			</div>
+			<div id="list-members">
+				<table>
+					<thead>
+						<tr>
+							<th>MSSV</th>
+							<th>Họ tên</th>
+						<tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a href="./members/1712316/1712316.html">1712316</a></td>
+							<td>Tằng Hưng Dân</td>
+						</tr>
+						<tr>
+							<td><a href="./members/1712324/1712324.html">1712324</a></td>
+							<td>Hồ Sỹ Thái Đạt</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div id="image">
+				<img src="./images/IMG_20190911_105046.jpg" usemap="#members-map" style="height: 50%;width: 50%;">
+				<map name="members-map">
+					<area shape="rect" coords="200,210,340,500" href="./members/1712324/1712324.html">
+					<area shape="rect" coords="350,170,500,500" href="./members/1712316/1712316.html">
+				</map>
+			</div>
+		</div>
+		<div id="footer">
+			<p>&copy Group2D</p>
+		</div>
+	</body>
 </html>
