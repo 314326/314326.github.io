@@ -1,0 +1,86 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial;
+	font-weight: 300;
+	color: white;
+	line-height: 1.254;
+	background-image: url('https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif');
+	background-size: cover;
+}
+
+a{
+	color:black;
+	font-weight: 100px;
+}
+
+ul{
+	list-style: none;
+}
+#header{
+	background:black;
+	margin: 0px;
+}
+#header h1{
+	float:right;
+	padding-left: 0px;
+	text-align: center;
+}
+#footer{
+	background:#454136;
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+}
+#title{
+	width: 700px;
+	text-align: center;
+	font-size: 50px;
+	padding: 10px 25px;
+	color:white;
+}
+#menu{
+	background:#454136;
+	padding-left: 150px;
+}
+#menu ul{
+	list-style-type: none;
+	background:#454136;
+}
+#menu ul li{
+	display: inline-table;
+	color:#f1f1f1;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+	text-align: center;
+}
+
+#menu ul li a{
+	display: block;
+	text-decoration: none;
+	color:#f1f1f1;
+}
+#menu ul li a:hover{
+	background: #f1f1f1;
+	color:#333;
+}
+
+#menu ul li > .sub-menu{
+	display: none;
+	position: absolute;
+}
+#menu ul li:hover .sub-menu{
+	display: block;
+}
+#main-content{
+	margin: 0;
+	text-align: center;
+	padding: 30px;
+}
