@@ -84,3 +84,11 @@ ul{
 	text-align: center;
 	padding: 30px;
 }
+img#group_image {
+	height: 600px;
+	width: 800px;
+}
+img#person_avartar {
+	height: 300px;
+	width: 200px;
+}
